@@ -1,0 +1,1273 @@
+/* @font-face {
+    font-family: 'TTNorms-Regular';
+    src:
+    url('/home/akshay/Desktop/Task13WEBSITE/TTNorms/TTNorms-Regular.otf'); 
+} */
+
+html,body
+{
+    
+    overflow-x: hidden; 
+}
+body{
+    font-family:'Roboto', sans-serif; ;
+}
+ *{
+    margin: 0;
+    padding: 0;
+
+} 
+/* header{
+    background-image:url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
+    width: 100%;
+    height:auto;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top:0;
+    padding-bottom: 180px;
+    margin:0%;
+    display: flex;
+   justify-content: center;
+   position: relative;
+   line-height: 30px;
+   display: flex;
+   flex-flow: row;
+
+
+} */
+/* 
+.forinput input{
+    
+    font-size: 25px;
+    line-height: 22px;
+    letter-spacing: 0ch;
+    font-weight: 500;
+    width: 400px;
+    border: none;
+    outline: none;
+    flex: 1 1 100%;
+    display: flex;
+    background: inherit;
+    color: currentcolor;
+    appearance: none;
+    margin: 0px;
+    padding: px;
+} */
+/* .logo{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+
+.forpadding{
+    display: flex;
+    padding:25px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 700px;
+    border-radius:40px;
+    margin-top: 490px;
+
+
+}
+.search{
+  
+    width: 100%;
+
+}
+.txtbx{
+ border: none;
+ font-size: larger;
+ width:100%;
+}
+.txtbx:focus {
+    outline: none;
+}
+.aspantag span{
+position: absolute;
+padding-left:20px;
+margin:96px;
+color:rgb(255, 255, 255);
+font-family:'DD-TTNorms';
+font-weight: 700;
+max-width: 668px;
+display:block;
+font-size: 64px;
+line-height:100%;
+left: 25%;
+right:20%;
+top:20%;
+letter-spacing: -0.04ch;
+
+}
+.spntag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    letter-spacing:5px;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+    padding-left: 30px;
+
+}
+ 
+.forlining{
+    width:160px;
+    padding:0px;
+    background-color:white;
+    border-radius:70px;
+    height: 75px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thisisspan{font-size: 23px;
+    font-weight: 900;
+    letter-spacing: -0.04ch;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin: 10px;
+    width: 100px;
+    line-height: 59px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 700;
+   
+}
+.forlining .tspantag{
+    font-size:24px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 900;
+    font-variant-ligatures: no-common-ligatures;
+    max-width: 100%;
+    text-overflow: ellipsis;}
+.spandiv{
+    display: flex;
+    background-color: none;
+    padding-right: 20%;
+    padding-left: 100%;
+    padding-bottom: 20px;
+    margin: 28px;
+    position:absolute;
+    flex-direction: row-reverse;
+
+} */ 
+
+.divforbannercontainer{
+    background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg");
+    display: flex;
+    flex-flow: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 16px;
+    padding-bottom: 192px;
+}
+.divforbannercontainer{
+    display:flex;
+    flex-direction: column;
+}
+.headerlogocontainer{
+    display:flex;
+    flex-direction: row;
+}
+.logotextcontainer{
+    margin-left: 17px;
+}
+.spantaghere{
+    margin-top: 96px;
+    margin-bottom: 16px;
+    display:block;
+    margin-left:85px;
+
+}
+.headercontentcontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgb(255, 255, 255);
+    letter-spacing:-0.05ch;
+    font-weight:700;
+}
+.classforsvgcontainer{
+    display: flex;
+    flex-direction: row;
+    width:408px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 4px;
+    padding-bottom:4px;
+    border-radius: 100px;
+    box-shadow: rgb(214 214 214) 0px 0px 0px 1px inset;
+}
+.containerforbuttonsvg{
+    background-color: inherit;
+    text-decoration: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(235, 23, 0);
+    border-radius: 100%;
+    cursor:pointer;
+}
+.inputclasscontainer{
+    font-size: 16px;
+    padding-left: 7px;
+    padding-right: 120px;
+    border: none;
+    outline: none;
+    line-height: 38px;
+
+}
+.containerforlogo{
+    padding-left: 6px;
+    padding-top: 7px;
+}
+.ClassforsvgEnter{
+    color:rgb(255, 255, 255);
+}
+.classforinput{
+    margin-top:16px;
+}
+.signupboxcontainer{
+    position: absolute;
+    top: 16px;
+    right: 0;
+    padding-right: 24px;
+    display:flex;
+}
+.signupButtonpadding{
+    padding:11px 19px;
+    background-color: white;
+    border-radius: 19px;
+}
+.SignInbuttonClass{
+    padding: 11px 19px;
+}
+
+
+.main-header-main-container{
+    position: relative;
+}
+.inclassforsigninbutton{
+    color: white;
+    font-weight: 900;
+    font-size:16px;
+}
+.inclassforsignupbutton{
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(63, 58, 58);
+    text-decoration: none;
+}
+.Ready4content{
+     display: flex;
+     margin-top: 96px;
+     margin-bottom: 96px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.innewcss{
+    display: flex;
+    flex-direction: row;
+}
+.newcss{
+    text-align: center;
+    /* padding-left: 15%;
+    padding-right: 15%; */
+}
+.forbutton{
+    text-decoration: none;
+    border: none;
+    background-color: inherit;
+    display:inline-flex;
+    cursor:pointer;
+}
+
+.classxbutton{
+    text-decoration: none;
+    border: none;
+    background-color: inherit;
+    display:inline-flex;
+}
+.a104{
+    text-decoration: none;
+    border: none;
+    background-color: inherit;
+    display:inline-flex;
+    padding-left:15%;
+}
+
+
+
+
+
+
+.animage{
+    max-width: 1075px;
+    height: auto;
+}
+.classforothercontent{
+    margin-top: 23px;
+}
+.becomeapartner{
+    font-size: 32px;
+    margin-top: 8px;
+    max-width: 257px;
+    /* max-width:200px;
+    margin-left:100px; */
+}
+.h2tag{
+    font-size: 32px;
+}
+.a102{
+    font-size: 32px;
+    margin-top: 8px;
+}
+.a105{
+    padding-left: 3%;
+}
+.redspantag1{
+    color:red;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.04ch;
+}
+.classforanaspan{
+    color:red;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.04ch;
+    cursor: pointer;
+}
+.a105{
+    color:red;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.04ch;
+}
+
+.h3tag{
+    margin-top: 8px;
+    font-size: 18px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0ch;
+    color: rgb(25, 25, 25);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    width: 41%;
+    margin-top: 8px;
+}
+.h3tag3{
+    font-size: 18px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0ch;
+    color: rgb(25, 25, 25);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    width: 69%;
+}
+.h3tag3{
+    margin-top: 8px;
+}
+
+.bclassforcontent{
+    max-width:244px;
+}
+.h3tag2{
+    font-size: 18px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0ch;
+    color: rgb(25, 25, 25);
+    margin: 0px;
+    padding: 0px;
+    max-width: 278px;
+}
+.h3tag2{
+    margin-top: 8px;
+}
+.foransvg{
+padding-top: 3%;
+}
+.a107{
+    padding-top: 2%;
+}
+.anotherrsvg{
+    padding-top: 2%;
+}
+.zclassforbutton{
+    margin-top:12px ;
+    cursor:pointer;
+}
+.divforlink{
+    margin-top:12px;
+}
+.a104{
+    margin-top: 12px;
+    padding-left: 18%;
+    cursor:pointer;
+}
+
+.itsaclass{
+    padding-top:2%;
+}
+/* .a100{
+
+    width: 100%;
+    max-width: 250px;
+} */
+.containerforr{
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 22%;
+}
+
+
+
+
+
+
+
+
+.z3class{
+    display:flex;
+    flex-direction: row;
+    /* max-width: 1184px; */
+    align-items: center;
+}
+.z6class{
+    font-size:40px;
+    font-weight:600;
+    line-height: 48px;
+    letter-spacing: -0.04ch;
+    text-transform: none;
+    color: rgb(25, 25, 25);
+    margin-bottom: 12px;
+    padding: 0px;
+    max-width:269px;
+    display: block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.z13class{
+    transform:translate(0px,29px)
+}
+.z8class{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0ch;
+    text-transform: none;
+    color: rgb(25, 25, 25);
+    margin-bottom: 29px;
+    padding: 0px;
+    display: block;
+    max-width:407px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.z11class{
+    margin-left: 64px;
+}
+
+.hrreff{
+    font-weight: 700;
+    color: white;
+    line-height: 18px;
+    letter-spacing: 0ch;
+    text-transform: none;
+    text-align: center;
+    display: inline;
+    font-variant-ligatures: no-common-ligatures;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    /* padding: 10px; */
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius: 100000px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+.firstcontentafterimage{
+    padding-bottom: 0.5%;
+}
+.yclass
+{
+    padding-top: 96px;
+    background-color: rgb(255, 240, 237);
+    display:flex;
+}
+.y1class{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.y7class{
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.04ch;
+    text-transform: none;
+    color: rgb(25, 25, 25);
+    display: block;
+   
+}
+.y11class{
+    position: relative;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right:20px;
+    display: inline-flex;
+    min-height: 40px;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 1000px;
+    border: none;
+    transition: background-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(235, 23, 0);
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 700;
+}
+
+.y5class{
+    margin-left:64px;
+}
+.y6class{
+    margin-bottom: 12px;
+}
+.y9class{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0ch;
+    color: rgb(25, 25, 25);
+    display: block;
+}
+.y8class{
+    margin-bottom: 16px;
+}
+.img1{
+    height: 154px;
+    width: 154px;
+}
+.divforlastfooter{
+    background-color: inherit;
+}
+footer{
+    background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgb(25, 25, 25);
+}
+.forfooter{
+    width:1184px;
+}
+
+.footercontainer{
+    max-width: 1160px;
+    padding: 0px 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.footercontainer .insidefooter{
+    flex-wrap: wrap;
+    display: flex;
+}
+.startingoffooter{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex: 1 1 0%;
+}
+.fotterrr{
+    font-size: 16px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0ch;
+    text-transform: none;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    font-variant-ligatures: no-common-ligatures;
+}
+.startingoffooter> :first-child {
+    margin-bottom: 8px;
+}
+.x1class{
+    display: flex;
+    justify-content: space-between;
+}
+.x2class{
+    display:flex;
+    flex-direction: column;
+    flex:1 1 0%;
+}
+.i100:visited{
+color:inherit;
+}
+.i100{
+    text-decoration:none;
+    color:inherit;
+    cursor: pointer;
+    transition: filter 0.2s ease 0s;
+}
+.startingoffooter .d12 .x2class .i100 {
+    text-decoration: none;
+}
+.x2class > *{
+     margin-top: 8px;
+}
+.g19{
+    font-size: 14px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0ch;
+    text-transform: none;
+    color: rgb(196, 196, 196);
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    font-variant-ligatures: no-common-ligatures;
+}
+.g19{
+    text-decoration: none;
+}
+.d12{
+    display:flex;
+    -webkit-box-pack:justify;
+    justify-content:space-between;
+}
+.divforlastfooter{
+    display:flex;
+}
+.anotherclassforfooter{
+    display: flex;
+    flex: 1 1 0%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.anotherclassforfooter > *{
+    padding-top:32px;
+    display:flex;
+    flex-direction: column;
+}
+.anotherclassforfooter > * > :first-child{
+    margin-bottom: 8px;
+}
+.anotherclassforfooter > * > * + *{
+    margin-top: 8px;
+}
+.square{
+    display:flex;
+    flex:1 1 0%;
+    -webkit-box-pack:end;
+    justify-content:flex-end;
+    overflow: hidden;
+}
+.square > * {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.forsquare11:focus{
+ background-color: white;
+}
+.forsquare{
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    background-color: rgb(75, 75, 75);
+    border-radius: 8px;
+
+}
+.forsquare11{
+    padding:2px 8px;
+    border-radius: 8px;
+    background-color: rgb (73, 73, 73);
+    display:flex;
+    -webkit-box-pack:center;
+    justify-content: center;
+}
+.square > * > * + *{
+    margin-top:12px;
+}
+.classforend{
+    display: flex; 
+    justify-content: space-between;
+    padding: 32px 0px;
+}
+.classforend > * {
+display: flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+.classforend > * > * + *{
+margin-left: 12px;
+}
+
+.forfooterend{
+    max-width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+
+}
+.tetrahedron{
+    text-decoration: inherit;
+    cursor: pointer;
+}
+.pentahedron{
+    display:inline-flex;
+    flex-wrap:nowrap;
+    align-items: center;
+    text-decoration: none;
+    vertical-align: middle;
+    height:27px;
+}
+.hexahedron{
+    text-decoration: none;
+    color:inherit;
+    cursor: pointer;
+    transition:filter 0.2s ease 0s;
+
+}
+.heptahedron{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:400;
+    line-height: 18px;
+    letter-spacing: 0ch;
+    text-transform: none;
+    color: rgb(196, 196 ,196);
+    display:block;
+}
+.hexahedron:visited{
+    color:inherit;
+}
+.classforanotherxx{
+    transform:translateY(-10px);
+}
+
+
+@media only screen and (min-width: 1597px) {
+    .aspantag span {
+     font-size: 55px;
+    }
+  }
+  @media only screen and (max-width: 1441px) {
+    .aspantag span {
+     font-size: 50px;
+    }
+  }
+  @media only screen and (max-width: 1343px) {
+    .aspantag span {
+     font-size: 50px;
+     left:10%;
+    }
+  }
+  @media only screen and (max-width:650px){
+
+    .context{
+        margin-left: 13%;
+    }
+  }
+  @media only screen and (max-width:958px){
+    .inbottom{
+        margin-left:10%;
+      
+    }
+  }
+  /* @media only screen and (max-width:1420px){
+    .bottom {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        margin-left:10%;
+    } */
+  /* } */
+  @media only screen and (min-width: 1184px){
+
+  .z3class {
+      flex-flow: row nowrap;
+      max-width: 1184px;
+      margin: 0px auto;
+  }
+  }
+
+  /* @media only screen and (min-width:750px) and (max-width:1183px){
+
+  }
+.imgclass img {
+    height: 154px;
+    width: 154px;} */
+    /* @media only screen and (min-width:768px) and (max-width:1483px){
+        .innewcss{
+            flex-direction: column;
+        }
+        .Ready4content{
+            justify-content: center;
+        }
+    } */
+
+ @media only screen and (min-width: 1184px){
+
+ .img3{
+    height: 154px;
+    width: 154px;
+}
+.img2{
+    height: 154px;
+    width: 154px;
+}
+.img1{
+    height: 154px;
+    width: 154px; 
+}
+}
+@media (min-width: 1184px){
+.yclass {
+    padding: 100px 0px 96px;
+}
+}
+
+@media screen and (min-width: 960px){
+.spantaghere {
+    font-size: 64px;
+    max-width: 668px;
+    line-height: 76px;
+} 
+ }
+@media only screen and (min-width: 0px) and (max-width: 1183px){
+.img3 {
+    height: 124px;
+    width: 124px;
+    margin-right: 64px;
+}
+.img2{
+    height: 124px;
+    width: 124px;
+}
+.img1{
+    height: 124px;
+    width: 124px;
+    margin-right: 64px;
+}
+
+.innewcss{
+    flex-direction: column;
+}
+.insidenewcss{
+    display:flex;
+}
+.newcss{
+    text-align: left;
+}
+.a10000class{
+    display:flex;
+    flex-direction: column;
+}
+.h2tag{
+    text-align: left;
+}
+.h3tag{
+    width:239px;
+    text-align: left;
+}
+.img2{
+    margin-right:64px;
+}
+.classforanotherxx{
+    transform: translateX(0px);
+    display:flex;
+}
+.a105{
+    padding-left: 0%;
+    font-size: 14px;
+}
+.h3tag3{
+    text-align: left;
+    width:46%;
+}
+.containerforr{
+    padding-left:0px;
+}
+.a104{
+    padding-left:0%;
+}
+.z13class{
+    max-width:702px;
+    width:100%;
+    height: auto;
+}
+.a2class{
+    display: flex;
+}
+.Ready4content{
+    transform: translateX(269px);
+    margin-bottom:26px;
+}
+.containerforbuttonsvg{
+    background-color: white;
+}
+.ClassforsvgEnter{
+    color: black;
+}
+.redspantag1{
+    font-size: 14px;
+}
+.classforanaspan{
+    font-size:14px;
+}
+.foransvg{
+    padding-top:4.5%;
+}
+.anothersvg{
+    padding-top:3.5%;
+}
+.a107{
+    padding-top:0.8%;
+}
+.z6class{
+    font-size: 24px;
+    margin-bottom:8px;
+    line-height: normal;
+    max-width:161px;
+}
+.z8class{
+    font-size: 14px;
+}
+.z4class{
+    margin-left: 64px;
+}
+.y4class{
+    max-width: 699.7px;
+    width: 100%;
+    height: auto;
+}
+.y7class{
+    font-size: 24px;
+    line-height: normal;
+}
+.y9class{
+    font-size: 14px;
+    max-width: 374px;
+}
+
+.yclass{
+    padding-top: 144px;
+    padding-bottom: 96px;
+}
+.insidenewcss{
+    padding: 16px;
+}
+.a2class{
+    padding:16px;
+}
+.classforanotherxx{
+    padding: 16px;
+}
+.z3class{
+    transform: translateY(55px);
+}
+
+}
+
+/* 
+@media only screen and (min-width: 768px){
+    .z4class{
+        margin-bottom:96px;
+    }
+} */
+@media only screen and (min-width: 768px){
+    .y1class{
+    flex-flow: row nowrap;
+    max-width: 1184px;
+    margin: 0px auto;
+    
+    }
+}
+@media only screen and (max-width: 1983px){
+    .innewcss{
+        transform: translateX(-120px);
+    }
+    }
+@media only screen and (min-width:1184px) and (max-width:1204px)
+{
+    .h3tag{
+        width: 68%;
+    }
+    .classforanotherxx {
+        transform: translateX(157px);
+    }
+    .a2class{
+        transform: translateX(163px);
+    }
+    .h3tag2{
+        width:266px;
+    }
+    .a2class{
+        transform: translateX(68px);
+    }
+    .insidenewcss{
+        padding-left: 100px;
+        max-width: 365px;
+
+    }
+}
+@media only screen and (min-width:1184px){
+.z13class{
+    max-width: 713px;
+    max-height: 513px;
+}
+.y4class{
+    max-width: 712.73px;
+    height: auto;
+}
+.z3class{
+    transform: translate(0px,29px);
+}
+
+
+
+}
+@media only screen and (max-width:960px){
+    .logotextcontainer{
+        display: none;
+    }
+    .spantaghere{
+        font-size: 32px;
+        display: block;
+        max-width: 344px;
+    }
+   .headerlogocon svg{
+        width: 56px;
+        height:32px;
+    }
+    .spantaghere{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        margin-top: 0px;
+        margin-left: 36px;
+    }
+    .divforbannercontainer{
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .z3class{
+        transform: translateY(-7px);
+        }
+    .hrreff{
+        /* padding-top: ;
+        padding-bottom: ; */
+        font-size:14px;
+    }    
+    .z13class{
+        max-width: 840px;
+        width:100%;
+        height: auto;
+    }
+    .z6class{
+        max-width:234px;
+    }
+    .y5class{
+        padding-right: 52px;
+    }
+    .y11class{
+        font-size: 14px;
+        min-height: 31px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .divforlastfooter{
+        flex-direction: column-reverse;
+    }
+    .square{
+        justify-content: center;
+    }
+    .footercontainer .insidefooter{
+        flex-direction: column;
+    }
+    @media only screen and (max-width:766px){
+        .img1{
+            width: 88px;
+            height:88px;
+        }
+        .img2{
+            width:88px;
+            height:88px;
+        }
+        .img3{
+            width:88px;
+            height:88px;
+        }
+        .z3class{
+            flex-direction:column-reverse;
+            align-items: flex-end;
+            transform: translateY(0px);
+        }
+        .z8class{
+            max-width: 311px;
+        }
+        .z13class{
+            height: auto;
+            width: 100%;
+            max-width: 500px;
+            transform: translate(0px,0px);
+        }
+        .yclass{
+            padding-top:343px;
+            margin-top:-287px;
+        }
+        .z4class{
+            margin-left: -34px;
+            align-self: center;
+            margin-top: 20px;
+        }
+        .y1class{
+            flex-direction: column;
+            align-items: center;
+            width:100%;
+            max-width: 396px;
+        }
+        .y5class{
+            margin-left:58px;
+        }
+        .y6class{
+            margin-bottom: 10px;
+        }
+        .z6class{
+            max-width:285px;
+        }
+        .x1class{
+            flex-direction: column;
+            text-align: center;
+        }
+        .footercontainer .insidefooter{
+            flex-direction: row;
+          
+        }
+
+        .startingoffooter> :first-child {
+            margin-left: 10px;
+            text-align: center;
+        }
+        .d12{
+            flex-direction: column;
+            text-align: center;
+        }
+        .anotherclassforfooter{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .classforend{
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .forfooterend{
+            margin-top: 12px;
+        }
+
+}
+
+
+.headerlogocon {
+    width:42px;
+    height:24px;
+}
+@media only screen and (max-width: 414px){
+    .y2class{
+        align-self: baseline;
+        max-width: 357px;
+    }
+    .z4class{
+        margin-left: -53px;
+    }
+    .y5class{
+        margin-left:25px;
+    }
+    .forfooterend{
+        margin-left: 28px;
+    }
+    .forfooter{
+        padding-bottom: 20px;
+    }
+    .img1{
+        margin-right: 32px;
+    }
+    .img2{
+        margin-right: 32px;
+    }
+    .img3{
+        margin-right: 32px;
+    }
+.h2tag{
+    min-width: 553px;
+}
+.h3tag{
+    width:236px;
+}
+.y11class{
+    padding-left:10px;
+    padding-right:9px;
+}
+.z8class{
+    line-height: 21px;
+    margin-bottom:24px;
+}
+.hrreff{
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right:13px;
+    padding-left:13px;
+}
+} 
+
+@media only screen and(min-width:399px) and (max-width: 430px){
+    .y5class{
+        margin-top:18px;
+    }
+    footer{
+        padding-bottom: 188px;
+    }
+}
