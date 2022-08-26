@@ -17,144 +17,9 @@ body{
     padding: 0;
 
 } 
-/* header{
-    background-image:url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
-    width: 100%;
-    height:auto;
-    z-index: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top:0;
-    padding-bottom: 180px;
-    margin:0%;
-    display: flex;
-   justify-content: center;
-   position: relative;
-   line-height: 30px;
-   display: flex;
-   flex-flow: row;
 
 
-} */
-/* 
-.forinput input{
-    
-    font-size: 25px;
-    line-height: 22px;
-    letter-spacing: 0ch;
-    font-weight: 500;
-    width: 400px;
-    border: none;
-    outline: none;
-    flex: 1 1 100%;
-    display: flex;
-    background: inherit;
-    color: currentcolor;
-    appearance: none;
-    margin: 0px;
-    padding: px;
-} */
-/* .logo{
-    position: absolute;
-    top: 5%;
-    left: 40%;
-}
-
-.forpadding{
-    display: flex;
-    padding:25px;
-    background-color: rgb(255, 255, 255);
-    height: 30px;
-    width: 700px;
-    border-radius:40px;
-    margin-top: 490px;
-
-
-}
-.search{
-  
-    width: 100%;
-
-}
-.txtbx{
- border: none;
- font-size: larger;
- width:100%;
-}
-.txtbx:focus {
-    outline: none;
-}
-.aspantag span{
-position: absolute;
-padding-left:20px;
-margin:96px;
-color:rgb(255, 255, 255);
-font-family:'DD-TTNorms';
-font-weight: 700;
-max-width: 668px;
-display:block;
-font-size: 64px;
-line-height:100%;
-left: 25%;
-right:20%;
-top:20%;
-letter-spacing: -0.04ch;
-
-}
-.spntag{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
-    letter-spacing:5px;
-    font-weight: 700;
-    color:rgb(255, 255, 255);
-    padding-left: 30px;
-
-}
- 
-.forlining{
-    width:160px;
-    padding:0px;
-    background-color:white;
-    border-radius:70px;
-    height: 75px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.thisisspan{font-size: 23px;
-    font-weight: 900;
-    letter-spacing: -0.04ch;
-    color: rgb(255, 255, 255);
-    position: relative;
-    margin: 10px;
-    width: 100px;
-    line-height: 59px;
-    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: 700;
-   
-}
-.forlining .tspantag{
-    font-size:24px;
-    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-weight: 900;
-    font-variant-ligatures: no-common-ligatures;
-    max-width: 100%;
-    text-overflow: ellipsis;}
-.spandiv{
-    display: flex;
-    background-color: none;
-    padding-right: 20%;
-    padding-left: 100%;
-    padding-bottom: 20px;
-    margin: 28px;
-    position:absolute;
-    flex-direction: row-reverse;
-
-} */ 
-
-.divforbannercontainer{
+.Main-header-Content-ChildContainer{
     background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg");
     display: flex;
     flex-flow: column;
@@ -169,25 +34,25 @@ letter-spacing: -0.04ch;
     padding-top: 16px;
     padding-bottom: 192px;
 }
-.divforbannercontainer{
+.Main-header-Content-ChildContainer{
     display:flex;
     flex-direction: column;
 }
-.headerlogocontainer{
+.Header-Content-Main-COntainer{
     display:flex;
     flex-direction: row;
 }
-.logotextcontainer{
+.Header-Logo-Rename{
     margin-left: 17px;
 }
-.spantaghere{
+.Header-Content-Discription-SpanTag{
     margin-top: 96px;
     margin-bottom: 16px;
     display:block;
     margin-left:85px;
 
 }
-.headercontentcontainer{
+.Header-Content-Primary-Container{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -196,7 +61,7 @@ letter-spacing: -0.04ch;
     letter-spacing:-0.05ch;
     font-weight:700;
 }
-.classforsvgcontainer{
+.Header-SearchBox-SvgContainer{
     display: flex;
     flex-direction: row;
     width:408px;
@@ -206,7 +71,10 @@ letter-spacing: -0.04ch;
     border-radius: 100px;
     box-shadow: rgb(214 214 214) 0px 0px 0px 1px inset;
 }
-.containerforbuttonsvg{
+.Header-SearchBox-SvgContainer:focus-within {
+    outline: 2px solid rgb(101, 101, 255);
+}
+.Header-Searchbox-sUBMIT-button{
     background-color: inherit;
     text-decoration: none;
     border: none;
@@ -216,7 +84,7 @@ letter-spacing: -0.04ch;
     border-radius: 100%;
     cursor:pointer;
 }
-.inputclasscontainer{
+.Header-textVBox-Input{
     font-size: 16px;
     padding-left: 7px;
     padding-right: 120px;
@@ -225,29 +93,29 @@ letter-spacing: -0.04ch;
     line-height: 38px;
 
 }
-.containerforlogo{
+.Header-SearchBox-Sv-ChildContainer-{
     padding-left: 6px;
     padding-top: 7px;
 }
 .ClassforsvgEnter{
     color:rgb(255, 255, 255);
 }
-.classforinput{
+.Header-SearchBox-Form{
     margin-top:16px;
 }
-.signupboxcontainer{
+.Main-Header_SignIn_button_Container{
     position: absolute;
     top: 16px;
     right: 0;
     padding-right: 24px;
     display:flex;
 }
-.signupButtonpadding{
+.Main-header-SignUpButton-Container{
     padding:11px 19px;
     background-color: white;
     border-radius: 19px;
 }
-.SignInbuttonClass{
+.Main-header-Signin-Button-Container{
     padding: 11px 19px;
 }
 
@@ -255,18 +123,18 @@ letter-spacing: -0.04ch;
 .main-header-main-container{
     position: relative;
 }
-.inclassforsigninbutton{
+.Main-header-SigninButton{
     color: white;
     font-weight: 900;
     font-size:16px;
 }
-.inclassforsignupbutton{
+.Main-header-SignUpButton-{
     font-size: 16px;
     font-weight: 900;
     color: rgb(63, 58, 58);
     text-decoration: none;
 }
-.Ready4content{
+.Section-MainContainer{
      display: flex;
      margin-top: 96px;
      margin-bottom: 96px;
@@ -274,16 +142,16 @@ letter-spacing: -0.04ch;
     flex-direction: row;
     justify-content: center;
 }
-.innewcss{
+.inSection-DecomeDASHER-textContaienr-Child-h3tag-{
     display: flex;
     flex-direction: row;
 }
-.newcss{
+.Section-DecomeDASHER-textContaienr-Child-h3tag-{
     text-align: center;
     /* padding-left: 15%;
     padding-right: 15%; */
 }
-.forbutton{
+.Section-DecomeDASHER-Button-{
     text-decoration: none;
     border: none;
     background-color: inherit;
@@ -291,13 +159,13 @@ letter-spacing: -0.04ch;
     cursor:pointer;
 }
 
-.classxbutton{
+.Section-Button---{
     text-decoration: none;
     border: none;
     background-color: inherit;
     display:inline-flex;
 }
-.a104{
+.Section-Container-Button3-Container{
     text-decoration: none;
     border: none;
     background-color: inherit;
@@ -317,31 +185,31 @@ letter-spacing: -0.04ch;
 .classforothercontent{
     margin-top: 23px;
 }
-.becomeapartner{
+.Become-Patner-h2{
     font-size: 32px;
     margin-top: 8px;
     max-width: 257px;
     /* max-width:200px;
     margin-left:100px; */
 }
-.h2tag{
+.Section-DecomeDASHER-textContaienr-Child-h2tag{
     font-size: 32px;
 }
-.a102{
+.Section-Content-contaiNer-h2{
     font-size: 32px;
     margin-top: 8px;
 }
-.a105{
+.Section-Container-Button3-Spantag{
     padding-left: 3%;
 }
-.redspantag1{
+.Section-DecomeDASHER-Buton-Span{
     color:red;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: -0.04ch;
 }
-.classforanaspan{
+.Section-Button---Span-{
     color:red;
     font-size: 18px;
     font-weight: 700;
@@ -349,7 +217,7 @@ letter-spacing: -0.04ch;
     letter-spacing: -0.04ch;
     cursor: pointer;
 }
-.a105{
+.Section-Container-Button3-Spantag{
     color:red;
     font-size: 18px;
     font-weight: 700;
@@ -357,7 +225,7 @@ letter-spacing: -0.04ch;
     letter-spacing: -0.04ch;
 }
 
-.h3tag{
+.Section-DecomeDASHER-textContaienr-Child-h3tag{
     margin-top: 8px;
     font-size: 18px;
     font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -372,7 +240,7 @@ letter-spacing: -0.04ch;
     width: 41%;
     margin-top: 8px;
 }
-.h3tag3{
+.Section-textContaienr-Child-h3tag3{
     font-size: 18px;
     font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 500;
@@ -385,14 +253,14 @@ letter-spacing: -0.04ch;
     display: inline-flex;
     width: 69%;
 }
-.h3tag3{
+.Section-textContaienr-Child-h3tag3{
     margin-top: 8px;
 }
 
-.bclassforcontent{
+.Become-Patner-Text-Container{
     max-width:244px;
 }
-.h3tag2{
+.Section-Content-H3tag{
     font-size: 18px;
     font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 500;
@@ -403,26 +271,26 @@ letter-spacing: -0.04ch;
     padding: 0px;
     max-width: 278px;
 }
-.h3tag2{
+.Section-Content-H3tag{
     margin-top: 8px;
 }
-.foransvg{
+.Section-DecomeDASHEr-Button-SVG{
 padding-top: 3%;
 }
 .a107{
     padding-top: 2%;
 }
-.anotherrsvg{
+.Section-Button-SVg{
     padding-top: 2%;
 }
-.zclassforbutton{
+.Section-Button-COntaienr-{
     margin-top:12px ;
     cursor:pointer;
 }
-.divforlink{
+.Section-DecomeDASHER-Button_Container{
     margin-top:12px;
 }
-.a104{
+.Section-Container-Button3-Container{
     margin-top: 12px;
     padding-left: 18%;
     cursor:pointer;
@@ -431,12 +299,12 @@ padding-top: 3%;
 .itsaclass{
     padding-top:2%;
 }
-/* .a100{
+/* .Section-Content-contaiNer{
 
     width: 100%;
     max-width: 250px;
 } */
-.containerforr{
+.Section-Contaent-h3-Container{
     display: inline-flex;
     flex-direction: column;
     padding-left: 22%;
@@ -449,13 +317,13 @@ padding-top: 3%;
 
 
 
-.z3class{
+.Middle-sEssion-FirstPartcOntainer{
     display:flex;
     flex-direction: row;
     /* max-width: 1184px; */
     align-items: center;
 }
-.z6class{
+.Middle-sEssion-FirstPart-SpanTag1{
     font-size:40px;
     font-weight:600;
     line-height: 48px;
@@ -469,10 +337,10 @@ padding-top: 3%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-.z13class{
+.Middle-sEssion-FirstPart-Svg-PIctureIMG{
     transform:translate(0px,29px)
 }
-.z8class{
+.Middle-sEssion-FirstPart-SpanTag2{
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -485,11 +353,11 @@ padding-top: 3%;
     max-width:407px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.z11class{
+.Middle-sEssion-FirstPart-Svg-Child-Container-{
     margin-left: 64px;
 }
 
-.hrreff{
+.Middle-sEssion-FirstPart-Button{
     font-weight: 700;
     color: white;
     line-height: 18px;
@@ -514,21 +382,21 @@ padding-top: 3%;
     padding-left: 15px;
     
 }
-.firstcontentafterimage{
+.Section-DecomeDASHER-textContaienr{
     padding-bottom: 0.5%;
 }
-.yclass
+.Middle-sEssion-SecondPart-Container
 {
     padding-top: 96px;
     background-color: rgb(255, 240, 237);
     display:flex;
 }
-.y1class{
+.Middle-sEssion-SecondPart-Container-Child{
     display:flex;
     flex-direction: row;
     align-items: center;
 }
-.y7class{
+.Middle-sEssion-SecondPart-Span{
     font-size: 40px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
@@ -539,7 +407,7 @@ padding-top: 3%;
     display: block;
    
 }
-.y11class{
+.Middle-sEssion-SecondPart-LInk{
     position: relative;
     max-width: 100%;
     padding-left: 20px;
@@ -560,13 +428,13 @@ padding-top: 3%;
      font-weight: 700;
 }
 
-.y5class{
+.Middle-sEssion-SecondPart-ContainerFor-Span{
     margin-left:64px;
 }
-.y6class{
+.Middle-sEssion-SecondPart-ContainerFor-Span2{
     margin-bottom: 12px;
 }
-.y9class{
+.Middle-sEssion-SecondPart-Span2{
     font-size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -575,14 +443,14 @@ padding-top: 3%;
     color: rgb(25, 25, 25);
     display: block;
 }
-.y8class{
+.Middle-sEssion-SecondPart-Span2Container{
     margin-bottom: 16px;
 }
 .img1{
     height: 154px;
     width: 154px;
 }
-.divforlastfooter{
+.Footer-Link-Second ROw{
     background-color: inherit;
 }
 footer{
@@ -593,67 +461,68 @@ footer{
     justify-content: center;
     background-color: rgb(25, 25, 25);
 }
-.forfooter{
+.Footer-Main-Container{
     width:1184px;
 }
 
-.footercontainer{
+.Footer-Child-Container{
     max-width: 1160px;
     padding: 0px 20px;
     margin: auto;
     display: flex;
     flex-direction: column;
 }
-.footercontainer .insidefooter{
+.Footer-Child-Container .Footer-Child2{
     flex-wrap: wrap;
     display: flex;
 }
-.startingoffooter{
+.Footer-child-3{
     padding-top: 32px;
     padding-bottom: 32px;
     flex: 1 1 0%;
 }
-.fotterrr{
+.Footer-h2.tag{
     font-size: 16px;
     font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0ch;
-    text-transform: none;
+    text-decoration: none;
     color: rgb(255, 255, 255);
     margin: 0px;
     padding: 0px;
     display: block;
     font-variant-ligatures: no-common-ligatures;
 }
-.startingoffooter> :first-child {
+
+.Footer-child-3> :first-child {
     margin-bottom: 8px;
 }
-.x1class{
+.Footer-Link-COntainer{
     display: flex;
     justify-content: space-between;
 }
-.x2class{
+.Footer-Link-ChildContainer{
     display:flex;
     flex-direction: column;
     flex:1 1 0%;
 }
-.i100:visited{
+.Footer-Link-AnchorTag:visited{
 color:inherit;
 }
-.i100{
+.Footer-Link-AnchorTag{
     text-decoration:none;
     color:inherit;
     cursor: pointer;
     transition: filter 0.2s ease 0s;
 }
-.startingoffooter .d12 .x2class .i100 {
+.Footer-child-3 .Footer-Link-child-tag .Footer-Link-ChildContainer .Footer-Link-AnchorTag {
     text-decoration: none;
 }
-.x2class > *{
+.Footer-Link-ChildContainer > *{
      margin-top: 8px;
 }
-.g19{
+.Footer-Link-SpanTag{
     font-size: 14px;
     font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 500;
@@ -666,52 +535,54 @@ color:inherit;
     display: block;
     font-variant-ligatures: no-common-ligatures;
 }
-.g19{
-    text-decoration: none;
+.Footer-Link-SpanTag:hover{
+    color: white;
+    text-decoration: underline;
 }
-.d12{
+
+.Footer-Link-child-tag{
     display:flex;
     -webkit-box-pack:justify;
     justify-content:space-between;
 }
-.divforlastfooter{
+.Footer-Link-Second ROw{
     display:flex;
 }
-.anotherclassforfooter{
+.anotherclassFooter-Main-Container{
     display: flex;
     flex: 1 1 0%;
     -webkit-box-pack: justify;
     justify-content: space-between;
 }
-.anotherclassforfooter > *{
+.anotherclassFooter-Main-Container > *{
     padding-top:32px;
     display:flex;
     flex-direction: column;
 }
-.anotherclassforfooter > * > :first-child{
+.anotherclassFooter-Main-Container > * > :first-child{
     margin-bottom: 8px;
 }
-.anotherclassforfooter > * > * + *{
+.anotherclassFooter-Main-Container > * > * + *{
     margin-top: 8px;
 }
-.square{
+.Footer-Link-Last Part{
     display:flex;
     flex:1 1 0%;
     -webkit-box-pack:end;
     justify-content:flex-end;
     overflow: hidden;
 }
-.square > * {
+.Footer-Link-Last Part > * {
     padding-top: 32px;
     display: flex;
     flex-direction: column;
     -webkit-box-align: center;
     align-items: center;
 }
-.forsquare11:focus{
+.forFooter-Link-Last Part11:focus{
  background-color: white;
 }
-.forsquare{
+.forFooter-Link-Last Part{
     opacity: 0.7;
     cursor: pointer;
     text-decoration: none;
@@ -720,7 +591,7 @@ color:inherit;
     border-radius: 8px;
 
 }
-.forsquare11{
+.forFooter-Link-Last Part11{
     padding:2px 8px;
     border-radius: 8px;
     background-color: rgb (73, 73, 73);
@@ -728,7 +599,7 @@ color:inherit;
     -webkit-box-pack:center;
     justify-content: center;
 }
-.square > * > * + *{
+.Footer-Link-Last Part > * > * + *{
     margin-top:12px;
 }
 .classforend{
@@ -745,18 +616,18 @@ justify-content:center;
 margin-left: 12px;
 }
 
-.forfooterend{
+.Footer-bottom-Tags{
     max-width: 100%;
     display:flex;
     align-items:center;
     justify-content: flex-start;
 
 }
-.tetrahedron{
+.Footer-Doordash-logo-svg{
     text-decoration: inherit;
     cursor: pointer;
 }
-.pentahedron{
+.Footer-Link-Logo{
     display:inline-flex;
     flex-wrap:nowrap;
     align-items: center;
@@ -764,14 +635,14 @@ margin-left: 12px;
     vertical-align: middle;
     height:27px;
 }
-.hexahedron{
+.Footer-anchor-tag{
     text-decoration: none;
     color:inherit;
     cursor: pointer;
     transition:filter 0.2s ease 0s;
 
 }
-.heptahedron{
+.Footer-Doordash-bottom-span{
     font-size: 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight:400;
@@ -781,11 +652,18 @@ margin-left: 12px;
     color: rgb(196, 196 ,196);
     display:block;
 }
-.hexahedron:visited{
+.Footer-anchor-tag:visited{
     color:inherit;
 }
-.classforanotherxx{
+.Section-Container-TrytheAPP{
     transform:translateY(-10px);
+}
+.Header-SearchBox-Sv-ChildContainer-{
+    position:relative;
+}
+.Header-SearchBox-Mgnifying_glass-Contaienr{
+    position: absolute;
+    top: 18%;
 }
 
 
@@ -827,7 +705,7 @@ margin-left: 12px;
   /* } */
   @media only screen and (min-width: 1184px){
 
-  .z3class {
+  .Middle-sEssion-FirstPartcOntainer {
       flex-flow: row nowrap;
       max-width: 1184px;
       margin: 0px auto;
@@ -837,14 +715,14 @@ margin-left: 12px;
   /* @media only screen and (min-width:750px) and (max-width:1183px){
 
   }
-.imgclass img {
+.Container-DASHeR-svg-- img {
     height: 154px;
     width: 154px;} */
     /* @media only screen and (min-width:768px) and (max-width:1483px){
-        .innewcss{
+        .inSection-DecomeDASHER-textContaienr-Child-h3tag-{
             flex-direction: column;
         }
-        .Ready4content{
+        .Section-MainContainer{
             justify-content: center;
         }
     } */
@@ -855,7 +733,7 @@ margin-left: 12px;
     height: 154px;
     width: 154px;
 }
-.img2{
+.Become-Svg{
     height: 154px;
     width: 154px;
 }
@@ -865,13 +743,13 @@ margin-left: 12px;
 }
 }
 @media (min-width: 1184px){
-.yclass {
+.Middle-sEssion-SecondPart-Container {
     padding: 100px 0px 96px;
 }
 }
 
 @media screen and (min-width: 960px){
-.spantaghere {
+.Header-Content-Discription-SpanTag {
     font-size: 64px;
     max-width: 668px;
     line-height: 76px;
@@ -883,7 +761,7 @@ margin-left: 12px;
     width: 124px;
     margin-right: 64px;
 }
-.img2{
+.Become-Svg{
     height: 124px;
     width: 124px;
 }
@@ -893,72 +771,76 @@ margin-left: 12px;
     margin-right: 64px;
 }
 
-.innewcss{
+.inSection-DecomeDASHER-textContaienr-Child-h3tag-{
     flex-direction: column;
+
+   transform: translateX(-120px);
+    
 }
-.insidenewcss{
+.insideSection-DecomeDASHER-textContaienr-Child-h3tag-{
     display:flex;
 }
-.newcss{
+.Section-DecomeDASHER-textContaienr-Child-h3tag-{
     text-align: left;
 }
-.a10000class{
+.Section-DecomeDASHER-textContaienr-Child{
     display:flex;
     flex-direction: column;
 }
-.h2tag{
+.Section-DecomeDASHER-textContaienr-Child-h2tag{
     text-align: left;
 }
-.h3tag{
+.Section-DecomeDASHER-textContaienr-Child-h3tag{
     width:239px;
     text-align: left;
 }
-.img2{
+.Become-Svg{
     margin-right:64px;
 }
-.classforanotherxx{
+.Section-Container-TrytheAPP{
     transform: translateX(0px);
     display:flex;
 }
-.a105{
+.Section-Container-Button3-Spantag{
     padding-left: 0%;
     font-size: 14px;
 }
-.h3tag3{
+.Section-textContaienr-Child-h3tag3{
     text-align: left;
     width:46%;
 }
-.containerforr{
+.Section-Contaent-h3-Container{
     padding-left:0px;
 }
-.a104{
+.Section-Container-Button3-Container{
     padding-left:0%;
 }
-.z13class{
+.Middle-sEssion-FirstPart-Svg-PIctureIMG{
     max-width:702px;
     width:100%;
     height: auto;
 }
-.a2class{
+.Section-Become-Patner-Container{
     display: flex;
 }
-.Ready4content{
-    transform: translateX(269px);
+.Section-MainContainer{
+    /* transform: translateX(269px); */
     margin-bottom:26px;
+    padding-left: 44%;
 }
-.containerforbuttonsvg{
+.Header-Searchbox-sUBMIT-button{
     background-color: white;
 }
 .ClassforsvgEnter{
     color: black;
 }
-.redspantag1{
+.Section-DecomeDASHER-Buton-Span{
     font-size: 14px;
 }
-.classforanaspan{
+.Section-Button---Span-{
     font-size:14px;
 }
-.foransvg{
+.Section-DecomeDASHEr-Button-SVG{
     padding-top:4.5%;
 }
 .anothersvg{
@@ -967,46 +849,46 @@ margin-left: 12px;
 .a107{
     padding-top:0.8%;
 }
-.z6class{
+.Middle-sEssion-FirstPart-SpanTag1{
     font-size: 24px;
     margin-bottom:8px;
     line-height: normal;
     max-width:161px;
 }
-.z8class{
+.Middle-sEssion-FirstPart-SpanTag2{
     font-size: 14px;
 }
-.z4class{
+.Middle-sEssion-FirstPart-Description{
     margin-left: 64px;
 }
-.y4class{
+.Middle-sEssion-SecondPart-PIC{
     max-width: 699.7px;
     width: 100%;
     height: auto;
 }
-.y7class{
+.Middle-sEssion-SecondPart-Span{
     font-size: 24px;
     line-height: normal;
 }
-.y9class{
+.Middle-sEssion-SecondPart-Span2{
     font-size: 14px;
     max-width: 374px;
 }
 
-.yclass{
+.Middle-sEssion-SecondPart-Container{
     padding-top: 144px;
     padding-bottom: 96px;
 }
-.insidenewcss{
+.insideSection-DecomeDASHER-textContaienr-Child-h3tag-{
     padding: 16px;
 }
-.a2class{
+.Section-Become-Patner-Container{
     padding:16px;
 }
-.classforanotherxx{
+.Section-Container-TrytheAPP{
     padding: 16px;
 }
-.z3class{
+.Middle-sEssion-FirstPartcOntainer{
     transform: translateY(55px);
 }
 
@@ -1014,188 +896,203 @@ margin-left: 12px;
 
 /* 
 @media only screen and (min-width: 768px){
-    .z4class{
+    .Middle-sEssion-FirstPart-Description{
         margin-bottom:96px;
     }
 } */
 @media only screen and (min-width: 768px){
-    .y1class{
+    .Middle-sEssion-SecondPart-Container-Child{
     flex-flow: row nowrap;
     max-width: 1184px;
-    margin: 0px auto;
+    margin: 0px auto;}
+
     
+    .Header-SearchBox-Mgnifying_glass-Contaienr{
+        display: none;
     }
 }
-@media only screen and (max-width: 1983px){
-    .innewcss{
+@media only screen and (min-width: 1783px){
+    .inSection-DecomeDASHER-textContaienr-Child-h3tag-{
         transform: translateX(-120px);
     }
     }
 @media only screen and (min-width:1184px) and (max-width:1204px)
 {
-    .h3tag{
+    .Section-DecomeDASHER-textContaienr-Child-h3tag{
         width: 68%;
     }
-    .classforanotherxx {
-        transform: translateX(157px);
+    .Section-Container-TrytheAPP {
+        transform: translateX(46px);
     }
-    .a2class{
+    .Section-Become-Patner-Container{
         transform: translateX(163px);
     }
-    .h3tag2{
+    .Section-Content-H3tag{
         width:266px;
     }
-    .a2class{
+    .Section-Become-Patner-Container{
         transform: translateX(68px);
     }
-    .insidenewcss{
+    .insideSection-DecomeDASHER-textContaienr-Child-h3tag-{
         padding-left: 100px;
         max-width: 365px;
 
     }
 }
+
+
 @media only screen and (min-width:1184px){
-.z13class{
+.Middle-sEssion-FirstPart-Svg-PIctureIMG{
     max-width: 713px;
     max-height: 513px;
 }
-.y4class{
+.Middle-sEssion-SecondPart-PIC{
     max-width: 712.73px;
     height: auto;
 }
-.z3class{
+.Middle-sEssion-FirstPartcOntainer{
     transform: translate(0px,29px);
 }
-
-
-
 }
+
+
 @media only screen and (max-width:960px){
-    .logotextcontainer{
+    .Header-Logo-Rename{
         display: none;
     }
-    .spantaghere{
+    .Header-Content-Discription-SpanTag{
         font-size: 32px;
         display: block;
         max-width: 344px;
     }
-   .headerlogocon svg{
+   .Header-Content-Logo-Container svg{
         width: 56px;
         height:32px;
     }
-    .spantaghere{
+    .Header-Content-Discription-SpanTag{
         padding-top: 30px;
         padding-bottom: 10px;
         margin-top: 0px;
         margin-left: 36px;
     }
-    .divforbannercontainer{
+    .Main-header-Content-ChildContainer{
         padding-top: 94px;
         padding-bottom: 94px;
     }
-    .z3class{
+    .Middle-sEssion-FirstPartcOntainer{
         transform: translateY(-7px);
         }
-    .hrreff{
+    .Middle-sEssion-FirstPart-Button{
         /* padding-top: ;
         padding-bottom: ; */
         font-size:14px;
     }    
-    .z13class{
+    .Middle-sEssion-FirstPart-Svg-PIctureIMG{
         max-width: 840px;
         width:100%;
         height: auto;
     }
-    .z6class{
+    .Middle-sEssion-FirstPart-SpanTag1{
         max-width:234px;
     }
-    .y5class{
+    .Middle-sEssion-SecondPart-ContainerFor-Span{
         padding-right: 52px;
     }
-    .y11class{
+    .Middle-sEssion-SecondPart-LInk{
         font-size: 14px;
         min-height: 31px;
         padding-left: 16px;
         padding-right: 16px;
     }
-    .divforlastfooter{
+    .Footer-Link-Second ROw{
         flex-direction: column-reverse;
     }
-    .square{
+    .Footer-Link-Last Part{
         justify-content: center;
     }
-    .footercontainer .insidefooter{
+    .Footer-Child-Container .Footer-Child2{
         flex-direction: column;
     }
-    @media only screen and (max-width:766px){
+}
+    
+    @media only screen and (max-width:767px){
         .img1{
             width: 88px;
             height:88px;
+            margin-right: 32px;
         }
-        .img2{
+        .Become-Svg{
             width:88px;
             height:88px;
+            margin-right:32px;
+        }
+        .Middle-sEssion-SecondPart-Picture-Container {
+    
+            margin-right: 47px;
+            align-self: baseline;
+            
         }
         .img3{
             width:88px;
             height:88px;
+            margin-right: 32px;
         }
-        .z3class{
+        .Middle-sEssion-FirstPartcOntainer{
             flex-direction:column-reverse;
             align-items: flex-end;
             transform: translateY(0px);
         }
-        .z8class{
+        .Middle-sEssion-FirstPart-SpanTag2{
             max-width: 311px;
         }
-        .z13class{
+        .Middle-sEssion-FirstPart-Svg-PIctureIMG{
             height: auto;
             width: 100%;
             max-width: 500px;
             transform: translate(0px,0px);
         }
-        .yclass{
+        .Middle-sEssion-SecondPart-Container{
             padding-top:343px;
             margin-top:-287px;
         }
-        .z4class{
+        .Middle-sEssion-FirstPart-Description{
             margin-left: -34px;
             align-self: center;
             margin-top: 20px;
         }
-        .y1class{
+        .Middle-sEssion-SecondPart-Container-Child{
             flex-direction: column;
             align-items: center;
             width:100%;
             max-width: 396px;
         }
-        .y5class{
+        .Middle-sEssion-SecondPart-ContainerFor-Span{
             margin-left:58px;
         }
-        .y6class{
+        .Middle-sEssion-SecondPart-ContainerFor-Span2{
             margin-bottom: 10px;
         }
-        .z6class{
+        .Middle-sEssion-FirstPart-SpanTag1{
             max-width:285px;
         }
-        .x1class{
+        .Footer-Link-COntainer{
             flex-direction: column;
             text-align: center;
         }
-        .footercontainer .insidefooter{
+        .Footer-Child-Container .Footer-Child2{
             flex-direction: row;
           
         }
 
-        .startingoffooter> :first-child {
+        .Footer-child-3> :first-child {
             margin-left: 10px;
             text-align: center;
         }
-        .d12{
+        .Footer-Link-child-tag{
             flex-direction: column;
             text-align: center;
         }
-        .anotherclassforfooter{
+        .anotherclassFooter-Main-Container{
             flex-direction: column;
             align-items: center;
             text-align: center;
@@ -1204,58 +1101,85 @@ margin-left: 12px;
             flex-direction: column-reverse;
             align-items: center;
         }
-        .forfooterend{
+        .Footer-bottom-Tags{
             margin-top: 12px;
+        }
+        .Header-Searchbox-sUBMITsVG-cHILD{
+            position:relative;
+            right:33%;
+
+        }
+        .Header-SearchBox-SvgContainer{
+            width:275px;
+            padding-top:5px;
+            padding-bottom: 5px;
+            border-radius:20px;
+        }
+        .Header-textVBox-Input{
+            padding-right: 0px;
+        }
+        .childHeader-SearchBox-Sv-ChildContainer-{
+            display: none;
+        }
+        .Header-textVBox-Input{
+            padding-left:32px;
+        }
+        .Section-MainContainer{
+            padding-left: 0px;
+         transform: translateX(269px);
+        }
+        .Middle-sEssion-SecondPart-PIC{
+            max-width: 537px;
         }
 
 }
 
 
-.headerlogocon {
+.Header-Content-Logo-Container {
     width:42px;
     height:24px;
 }
-@media only screen and (max-width: 414px){
-    .y2class{
+@media only screen and (max-width: 726px){
+    .Middle-sEssion-SecondPart-Picture-Container{
         align-self: baseline;
-        max-width: 357px;
+        /* max-width: 357px; */
     }
-    .z4class{
+    .Middle-sEssion-FirstPart-Description{
         margin-left: -53px;
     }
-    .y5class{
+    .Middle-sEssion-SecondPart-ContainerFor-Span{
         margin-left:25px;
     }
-    .forfooterend{
+    .Footer-bottom-Tags{
         margin-left: 28px;
     }
-    .forfooter{
+    .Footer-Main-Container{
         padding-bottom: 20px;
     }
     .img1{
         margin-right: 32px;
     }
-    .img2{
+    .Become-Svg{
         margin-right: 32px;
     }
     .img3{
         margin-right: 32px;
     }
-.h2tag{
+.Section-DecomeDASHER-textContaienr-Child-h2tag{
     min-width: 553px;
 }
-.h3tag{
+.Section-DecomeDASHER-textContaienr-Child-h3tag{
     width:236px;
 }
-.y11class{
+.Middle-sEssion-SecondPart-LInk{
     padding-left:10px;
     padding-right:9px;
 }
-.z8class{
+.Middle-sEssion-FirstPart-SpanTag2{
     line-height: 21px;
     margin-bottom:24px;
 }
-.hrreff{
+.Middle-sEssion-FirstPart-Button{
     padding-top:8px;
     padding-bottom:8px;
     padding-right:13px;
@@ -1264,10 +1188,34 @@ margin-left: 12px;
 } 
 
 @media only screen and(min-width:399px) and (max-width: 430px){
-    .y5class{
+    .Middle-sEssion-SecondPart-ContainerFor-Span{
         margin-top:18px;
     }
     footer{
         padding-bottom: 188px;
+    }
+    .Delivery-Locations{
+        margin-left: 50px;
+      }
+}
+@media only screen and (min-width:375px) and (max-width:372px){
+ .Section-DecomeDASHER-textContaienr-Child-h2tag{
+    min-width: 585px;
+ }
+}
+.Delivery-locations-span{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0ch;
+    text-transform: none;
+    color: rgb(196, 196 ,196);
+    display: block;
+    text-decoration: none;
+}
+@media only screen and (min-width:412px) and (max-width:767px){
+    .Middle-sEssion-SecondPart-Container-Child{
+       max-width:705px;
     }
 }
