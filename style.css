@@ -1,8 +1,3 @@
-/* @font-face {
-    font-family: 'TTNorms-Regular';
-    src:
-    url('/home/akshay/Desktop/Task13WEBSITE/TTNorms/TTNorms-Regular.otf'); 
-} */
 
 html,body
 {
@@ -426,7 +421,6 @@ footer{
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
-    letter-spacing: 0ch;
     text-decoration: none;
     color: rgb(255, 255, 255);
     display: block;
@@ -458,11 +452,8 @@ footer{
 }
 .Footer-Link-SpanTag{
     font-size: 14px;
-    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-weight: 500;
     line-height: 20px;
-    letter-spacing: 0ch;
-    text-transform: none;
     color: rgb(196, 196, 196);
     margin: 0px;
     padding: 0px;
@@ -476,7 +467,6 @@ footer{
 
 .Footer-Link-child-tag{
     display:flex;
-    -webkit-box-pack:justify;
     justify-content:space-between;
 }
 .Footer-link-second-row{
